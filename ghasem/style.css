@@ -7,7 +7,7 @@ body{
 div{
 	
 }
-
+/*
 .container{
 	outline:1px solid white;
 }
@@ -15,7 +15,7 @@ div{
 .container>div{
 	outline:1px solid blue;
 }
-
+*/
 div.backimage{
 	background-image :url('images/background.jpg');
 	background-repeat:no-repeat;
@@ -36,5 +36,36 @@ div.contact-us-form{
 	background:url(images/bg-o.png),rgba(22,22,22,0.9);
 
 }
-	
+h1{
 
+}
+
+form{
+	
+}
+
+div.contact-us-form p{
+	color: #4A4A4A;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+input[type=text]{
+
+	background-color: rgb(22,22,22);
+	border: 1px solid #2B2B2B;
+	height: 28px;
+	line-height: 28px;
+	padding: 0 10px;
+	width: 400px;
+	color: #626262 ;
+}
+
+input{
+	border:red;
+
+}
+
+table tr td:first-child{
+	padding: 5px;
+}
