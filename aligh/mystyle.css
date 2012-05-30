@@ -1,6 +1,7 @@
 body{
 	background-image:url(images/back.png);
 	background-repeat:no-repeat;
+	background-position:center top; 
 	
 }
 
@@ -16,8 +17,10 @@ div{
 
 .nav{
 	width:224px;
-	height:984px;
+	height:574px;
 	padding-top:1px;
+	margin-right:auto;
+	background-image:url(images/head_reabon.png);
 }
 
 .nav .logo{
@@ -33,23 +36,23 @@ div{
 }
 
 .nav ul{
-	outline:1px blue solid;
-	list-style-type:none;
+	margin-top:100px;
+	outline:3px blue solid;
 	width:184px;
-	min-height:100px;
-	margin-top:80px;
 }
 
 .nav ul >li{
-	padding:10px;
-	border-bottom:1px solid red;
+	outline:1px red solid;
+
 }
 
 .nav ul >li a{
-	margin-left:65px;
-	width:40px;
+	display:block;
+	padding-bottom:10px;
 	text-decoration:none;
 	color:#FFF;
 	font-size:14px;
 	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
+	line-height:20px;
 }
