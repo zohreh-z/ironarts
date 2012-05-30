@@ -25,6 +25,8 @@ div{
 
 .nav .logo{
 	background-image:url(images/logo.png);
+	background-size:100% 100%;
+	background-position:center top;
 	width:173px;
 	height:73px;
 	margin-top:66px;
@@ -37,20 +39,20 @@ div{
 
 .nav ul{
 	margin-top:100px;
-	outline:3px blue solid;
 	width:184px;
 }
 
 .nav ul >li{
-	outline:1px red solid;
+	border-bottom:1px #242424 solid;
 
 }
 
 .nav ul >li a{
 	display:block;
-	padding-bottom:10px;
+	padding-bottom:5px;
+	padding-top:5px;
 	text-decoration:none;
-	color:#FFF;
+	color:#DDD;
 	font-size:14px;
 	font-family:Arial, Helvetica, sans-serif;
 	text-align:center;
