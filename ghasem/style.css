@@ -1,0 +1,40 @@
+
+
+body{
+	background:url(images/bg-footer.gif) repeat scroll 0pt 0pt;
+}
+
+div{
+	
+}
+
+.container{
+	outline:1px solid white;
+}
+
+.container>div{
+	outline:1px solid blue;
+}
+
+div.backimage{
+	background-image :url('images/background.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center top;
+	position : fixed;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	z-index:-1;	
+}
+/*...........................contact us form*/
+
+div.contact-us-form{
+	margin: 300px auto;
+	min-height:600px;
+	background:url(images/bg-o.png),rgba(22,22,22,0.9);
+
+}
+	
+
