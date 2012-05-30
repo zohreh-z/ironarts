@@ -10,17 +10,19 @@ div{
 }
 
 .container{
-	min-height:700px;
+	min-height:600px;
 	width:980px;
 	padding-top:1px;
 }
 
 .nav{
-	width:224px;
-	height:574px;
+	width:228px;
+	height:500px;
 	padding-top:1px;
 	margin-right:auto;
 	background-image:url(images/head_reabon.png);
+	background-repeat:no-repeat;
+	background-position:center top;
 }
 
 .nav .logo{
@@ -63,4 +65,11 @@ div{
 .nav ul >li a:hover{
 	background:black;
 	color:#FFF;
+}
+
+		/*********************FOOTER***************************/
+
+.container-footer{
+	min-height:55px;
+	outline-color:blue;
 }
