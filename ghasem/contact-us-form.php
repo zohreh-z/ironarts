@@ -17,7 +17,7 @@
 		<div class="contact-us-form w14">
 			<h1>SEND MESSAGE</h1>
 			<form method="post" action="">
-				<table border="1">
+				<table>
 
 					<tr>
 						
@@ -58,7 +58,21 @@
 
 			<?php 
 
-			echo $_POST["name"];
+			if( isset($_POST['name']) && isset($_POST['user-email']) && isset($_POST['subject']) && isset($_POST['phone']) && isset($_POST['Message'])){
+
+				$name = $_POST['name'];
+				$email = $_POST['user-email'];
+				$Subject = $_POST['Subject'];
+				$phone = $_POST['phone'];
+				$Message = $_POST['Message'];
+				
+				if( @mail("info@ironarts.ir",$Subject ,$name+$phone+$Message,"From:info@ironarts.ir\nReply-To:$email") ){
+				echo "Mail sent";
+				}
+				else{
+					echo "Error in sending mail.";
+				}
+			}
 			
  			?>
 		</div>
