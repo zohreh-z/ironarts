@@ -1,5 +1,35 @@
 body{
 	background-image:url(images/back.png);
 	background-repeat:no-repeat;
-	background-size:cover;
+	
+}
+
+div{
+	outline: 1px red solid;
+}
+
+.container{
+	min-height:700px;
+	width:980px;
+	padding-top:1px;
+}
+
+.nav{
+	width:224px;
+	height:984px;
+	padding-top:1px;
+}
+
+.nav .logo{
+	background-image:url(images/logo.png);
+	width:173px;
+	height:73px;
+	margin-top:66px;
+	margin-left:auto;
+	margin-right:auto;
+	overflow:hidden;
+}
+
+.nav .logo h1{
+	text-indent:5000px;
 }
