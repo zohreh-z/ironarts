@@ -1,7 +1,31 @@
 body{
-	background-image:url(images/back.png);
+/*	background-image:url(images/back.png);
 	background-repeat:no-repeat;
 	background-position:center top; 
+	
+*/}
+
+.backimg{
+	position:relative;
+}
+
+.bookimg > div{
+	position:absolute;
+}
+
+.img1{
+	
+}
+
+.img2{
+	
+}
+
+.img3{
+	
+}
+
+.img4{
 	
 }
 
@@ -9,7 +33,7 @@ div{
 	outline: 1px red solid;
 }
 
-.container{
+/*.container{
 	min-height:600px;
 	width:980px;
 	padding-top:1px;
@@ -71,9 +95,9 @@ div{
 	background:black;
 	color:#FFF;
 }
-
+*/
 		/*********************FOOTER***************************/
-
+/*
 .bottom-background{
 	background-image:url(images/bottom_row.gif);
 }
@@ -177,3 +201,4 @@ div{
 	text-decoration:underline;
 	color:#C00;
 }
+*/
