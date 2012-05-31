@@ -29,6 +29,7 @@ div{
 	background-image:url(images/logo.png);
 	background-size:100% 100%;
 	background-position:center top;
+	background-repeat:no-repeat;
 	width:173px;
 	height:73px;
 	margin-top:66px;
@@ -59,7 +60,11 @@ div{
 	font-family:Arial, Helvetica, sans-serif;
 	text-align:center;
 	line-height:20px;
+	transition:all 300ms;
 	-webkit-transition:all 300ms;
+	-moz-transition:all 300ms;
+	-o-transition:all 300ms;
+	-ms-transition:all 300ms;
 }
 
 .nav ul >li a:hover{
@@ -79,13 +84,13 @@ div{
 	background-repeat:repeat-x;
 }
 
-.bottom-container .center{
+.bottom-container .bottom-content{
 	outline-color:blue;
 	padding-top:1px;
 	width:980px;
 }
 
-.center .topic{
+.bottom-content .topic{
 	width:980px;
 	margin-top:10px;
 }
@@ -119,8 +124,12 @@ div{
 	color:#9D9D9D;
 	text-decoration:none;
 	font-size:20px;
-	-webkit-transition:color 500ms;
 	font-family: 'Julee', cursive;
+	transition:color 300ms;
+	-webkit-transition:color 300ms;
+	-moz-transition:color 300ms;
+	-ms-transition:color 300ms;
+	-o-transition:color 300ms;
 }
 
 .topic > div ul li a:hover{
@@ -134,4 +143,37 @@ div{
 	margin-right:28px;
 	margin-left:750px;
 	outline-color:#3CF;
+}
+
+.bottom-background .footer-container{
+	background-image:url(images/footer_bg.gif);
+	min-height:40px;
+	background-repeat:repeat-x;
+}
+
+.footer-container .footer-content{
+	width:980px;
+	min-height:40px;
+	padding-top:20px;
+}
+
+.footer-content h4{
+	font-family:"Courier New", Courier, monospace;
+	color:#FFF;
+	font-size:11px;
+}
+
+.footer-content a{
+	text-decoration:none;
+	color:#800;
+	transition:color 1000ms;
+	-webkit-transition:color 1000ms;
+	-moz-transition:color 1000ms;
+	-ms-transition:color 1000ms;
+	-o-transition:color 1000ms;
+}
+
+.footer-content a:hover{
+	text-decoration:underline;
+	color:#C00;
 }
