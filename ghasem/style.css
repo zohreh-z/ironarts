@@ -136,3 +136,34 @@ div.send-alert-correct img{
 	float: left;
 	margin-right:15px;
 }
+/*...........................About page*/
+div.about-content{
+	margin: 300px auto;
+	min-height:600px;
+	max-width:640px;
+	background:url(images/cont_bg.gif),rgba(22,22,22,0.9);
+	padding:25px;
+	border-radius:10px;
+
+}
+div.about-content p{
+	color: rgb(74, 74, 74);
+}
+div.about-content div.person-pic,
+div.about-content div.desc{
+	min-height:220px;
+}
+
+
+div.about-content h1,
+div.about-content h2{
+	color: white;
+}
+
+div.about-content h1,
+div.about-content div.content-news p{
+	margin-bottom:20px;
+}
+div.about-content div.content-news div{
+	text-align:center;
+}
