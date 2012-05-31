@@ -2,7 +2,6 @@ body{
 /*	background-image:url(images/back.png);
 	background-repeat:no-repeat;
 	background-position:center top; */
-	position:relative;
 }
 
 .backimg{
@@ -10,7 +9,7 @@ body{
 }
 
 .backimg > div{
-	position:absolute;
+	position:fixed;
 	background-position:center top;
 	background-repeat:no-repeat;
 	background-size:cover;
@@ -18,6 +17,7 @@ body{
 	left:0;
 	right:0;
 	bottom:0;
+	z-index:-10;
 }
 
 .img1{
@@ -37,10 +37,10 @@ body{
 }
 
 div{
-	outline: 1px red solid;
+	/*outline: 1px red solid;*/
 }
 
-/*.container{
+.container{
 	min-height:600px;
 	width:980px;
 	padding-top:1px;
@@ -102,9 +102,9 @@ div{
 	background:black;
 	color:#FFF;
 }
-*/
+
 		/*********************FOOTER***************************/
-/*
+
 .bottom-background{
 	background-image:url(images/bottom_row.gif);
 }
@@ -208,4 +208,3 @@ div{
 	text-decoration:underline;
 	color:#C00;
 }
-*/
