@@ -69,7 +69,45 @@ div{
 
 		/*********************FOOTER***************************/
 
-.container-footer{
-	min-height:55px;
+.bottom-background{
+	background-image:url(images/bottom_row.gif);
+}
+
+.bottom-background .bottom-container{
+	min-height:255px;
+	outline-color:green;
+	background-image:url(images/title_row.gif);
+	background-repeat:repeat-x;
+}
+
+.bottom-container .center{
+	min-height:155px;
 	outline-color:blue;
+}
+
+.center .topic{
+	width:980px;
+	min-height:55px;
+}
+
+.topic > div{
+	min-height:inherit;
+	float:left;
+	width:200px;
+}
+
+.topic .art{
+	
+}
+
+.topic .cat{
+	
+}
+
+.topic .arc{
+	
+}
+
+.topic .fli{
+	
 }
