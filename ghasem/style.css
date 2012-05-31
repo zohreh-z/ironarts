@@ -32,27 +32,38 @@ div.backimage{
 
 div.contact-us-form{
 	margin: 300px auto;
-	min-height:600px;
+	min-height:400px;
 	background:url(images/bg-o.png),rgba(22,22,22,0.9);
-	padding: 20px;
+	padding-bottom:20px;
+	border-radius:20px;
+
 
 }
 div.contact-us-form h1{
 	font-size: 18px;
 	color: white;
-	padding: 0 0 40px 1px;
+	padding-top:20px;
+	padding-bottom:30px;
+	margin-left:40px;
 	font-weight: bold;
 	line-height: 100%;
 	text-transform: uppercase;
 }
 
-form{
-	
+table tr td{
+	padding: 10px 5px;
+}
+table tr td span{
+	color: red;
+	font-size:12px;
+}
+table {
+	margin: 0 auto;
 }
 
 div.contact-us-form p{
 	color: #4A4A4A;
-	font-size: 15px;
+	font-size: 16px;
 	line-height: 18px;
 }
 
@@ -63,11 +74,9 @@ input[type=text]{
 	height: 28px;
 	line-height: 28px;
 	padding: 0 10px;
-	width: 300px;
+	width: 350px;
 	color: #626262 ;
-}
-input[type=text].not-ok,textarea.not-ok{
-	border-color:red;
+	border-radius:8px;
 }
 
 textarea{
@@ -76,16 +85,51 @@ textarea{
 	height: 200px;
 	line-height: 28px;
 	padding: 0 10px;
-	width: 300px;
+	min-width: 350px;
 	color: #626262 ;
-
+	border-radius:8px;
 }
 
+input[type=text].not-ok,textarea.not-ok{
+	border-color:red;
+}
 
-table tr td{
-	padding: 10px 5px;
+input[type=submit],input[type=reset]{
+	margin-left:auto;
+	margin-top:15px;
+	margin-right:25px;	
+	display:block;
+	background: url(images/readmore_bg.png) repeat;
+	padding: 5px 14px;
+	border: 1px solid #242424;
+	color: #626262;
+	font-size: 10px;
+	font-weight: 400;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-style: normal;
+	cursor:pointer;
+}
+input[type=submit]:hover,
+input[type=submit]:active,
+input[type=reset]:hover,
+input[type=reset]:active{
+	background-color:#000000;
+	color:white;
+}
+div.send-alert{
+	display:none;
+	margin:0px auto;
+	padding:5px;
+	width:230px;
+	font-size:20px;
+	font-weight:bolder;
+	color:white;
+	margin-top:10px;
 
 }
-table {
-	margin: 0 auto;
+div.send-alert img{
+	display: block;
+	float: left;
+	margin-right:15px;
 }
