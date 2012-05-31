@@ -1,32 +1,39 @@
 body{
 /*	background-image:url(images/back.png);
 	background-repeat:no-repeat;
-	background-position:center top; 
-	
-*/}
-
-.backimg{
+	background-position:center top; */
 	position:relative;
 }
 
-.bookimg > div{
+.backimg{
+		
+}
+
+.backimg > div{
 	position:absolute;
+	background-position:center top;
+	background-repeat:no-repeat;
+	background-size:cover;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
 }
 
 .img1{
-	
+	background-image:url(images/slider_pic1.jpg);
 }
 
 .img2{
-	
+	background-image:url(images/slider_pic11.jpg);
 }
 
 .img3{
-	
+	background-image:url(images/slider_pic12.jpg);
 }
 
 .img4{
-	
+	background-image: url(images/slider_pic2.jpg);
 }
 
 div{
