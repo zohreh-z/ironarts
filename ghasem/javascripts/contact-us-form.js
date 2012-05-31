@@ -15,6 +15,7 @@ window.onload=function(){
 		return t;
 	}	
 	
+	
 	for(i=0;i<myform.elements.length;i++){
 		
 		if(myform.elements.item(i).type=='text' || myform.elements.item(i).type=='textarea'){
@@ -36,5 +37,22 @@ window.onload=function(){
 		
 	}
 	
+	
+	
+	
+	//kar nemikoneeeeeeeeeeeeeeeeeee     in function toie onclick input[reset] hast vali kar nemikone
+	//kar nemikoneeeeeeeeeeeeeeeeeee     in function toie onclick input[reset] hast vali kar nemikone
+	//kar nemikoneeeeeeeeeeeeeeeeeee     in function toie onclick input[reset] hast vali kar nemikone
+	//kar nemikoneeeeeeeeeeeeeeeeeee     in function toie onclick input[reset] hast vali kar nemikone
+	//kar nemikoneeeeeeeeeeeeeeeeeee     in function toie onclick input[reset] hast vali kar nemikone
+	function hide_send_alert() {
+		$("div.send-alert").css("display","none");
+		alert("for test");
+		
+	}
+	//kar nemikoneeeeeeeeeeeeeeeeeee     in function toie onclick input[reset] hast vali kar nemikone
+	//kar nemikoneeeeeeeeeeeeeeeeeee     in function toie onclick input[reset] hast vali kar nemikone
+	//kar nemikoneeeeeeeeeeeeeeeeeee     in function toie onclick input[reset] hast vali kar nemikone
+	//kar nemikoneeeeeeeeeeeeeeeeeee     in function toie onclick input[reset] hast vali kar nemikone
 	
 }
