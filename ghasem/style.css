@@ -1,0 +1,91 @@
+
+
+body{
+	background:url(images/bg-footer.gif) repeat scroll 0pt 0pt;
+}
+
+div{
+	
+}
+/*
+.container{
+	outline:1px solid white;
+}
+
+.container>div{
+	outline:1px solid blue;
+}
+*/
+div.backimage{
+	background-image :url('images/background.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center top;
+	position : fixed;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	z-index:-1;	
+}
+/*...........................contact us form*/
+
+div.contact-us-form{
+	margin: 300px auto;
+	min-height:600px;
+	background:url(images/bg-o.png),rgba(22,22,22,0.9);
+	padding: 20px;
+
+}
+div.contact-us-form h1{
+	font-size: 18px;
+	color: white;
+	padding: 0 0 40px 1px;
+	font-weight: bold;
+	line-height: 100%;
+	text-transform: uppercase;
+}
+
+form{
+	
+}
+
+div.contact-us-form p{
+	color: #4A4A4A;
+	font-size: 15px;
+	line-height: 18px;
+}
+
+input[type=text]{
+
+	background-color: rgb(22,22,22);
+	border: 1px solid #2B2B2B;
+	height: 28px;
+	line-height: 28px;
+	padding: 0 10px;
+	width: 300px;
+	color: #626262 ;
+}
+input[type=text].not-ok,textarea.not-ok{
+	border-color:red;
+}
+
+textarea{
+	background-color: rgb(22,22,22);
+	border: 1px solid #2B2B2B;
+	height: 200px;
+	line-height: 28px;
+	padding: 0 10px;
+	width: 300px;
+	color: #626262 ;
+
+}
+
+
+table tr td{
+	padding: 10px 5px;
+
+}
+table {
+	margin: 0 auto;
+}
