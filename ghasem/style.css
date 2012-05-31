@@ -117,18 +117,21 @@ input[type=reset]:active{
 	background-color:#000000;
 	color:white;
 }
-div.send-alert{
+div.send-alert-error,
+div.send-alert-correct
+{
 	display:none;
 	margin:0px auto;
 	padding:5px;
-	width:230px;
+	width:260px;
 	font-size:20px;
 	font-weight:bolder;
 	color:white;
 	margin-top:10px;
 
 }
-div.send-alert img{
+div.send-alert-error img,
+div.send-alert-correct img{
 	display: block;
 	float: left;
 	margin-right:15px;

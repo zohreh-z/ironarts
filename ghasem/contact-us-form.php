@@ -20,12 +20,17 @@
 				$Message = $_POST['Message'];
 				
 				if( @mail("admin@yaranemahdi-313.ir",$Subject ,$name+"<br  />"+$phone+"<br  />"+$Message,"From:info@ironarts.ir\nReply-To:$email") ){
-					echo "Mail sent";
+					echo 
+					"<style type='text/css'>
+						div.send-alert-correct{
+							display: block;
+						}
+					</style>";
 				}
 			else{
 				echo 
 					"<style type='text/css'>
-						div.send-alert{
+						div.send-alert-error{
 							display: block;
 						}
 					</style>";
@@ -39,8 +44,11 @@
 <div class="container">
 	<div class="contact-us-form w14">
 
-				<div class='send-alert'>
+				<div class='send-alert-error'>
 					<img src='images/not-correct-us.png' height='30px' width='30px' alt='not-correct'> Error in sending mail.
+				</div>
+				<div class='send-alert-correct'>
+					<img src='images/correct-us.png' height='30px' width='30px' alt='correct'> Thank's for sending mail.
 				</div>
 		<h1>SEND MESSAGE</h1>
 		<form method="post" action="">
@@ -67,12 +75,7 @@
 				</tr>
 			</table>
 			<input type="submit" class="ok" name="submit" value="SEND EMAIL">
-			<input type='reset' class='ok' name='reset'  onClick="
-				$("div.send-alert").css("display","none");
-		$("body").css("background-color","red");
-		alert("kewjskd");
-		
-			' value='RESET'>
+			<input type='reset' class='ok' name='reset'  onClick='hide_send_alert()' value='RESET'>
 		</form>
 		
 	</div>
