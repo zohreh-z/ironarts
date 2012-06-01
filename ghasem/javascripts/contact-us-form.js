@@ -28,7 +28,9 @@ window.onload=function(){
 				}
 				else{
 					this.className='not-ok';
+					//be jaie in chi bezaram
 					document.getElementsByClassName('contact-us-form').item(0).getElementsByTagName('table').item(0).getElementsByTagName('tr').item(i).getElementsByTagName('td').item(0).style.color='red';
+					//be jaie in chi bezaram
 				}
 				
 				
