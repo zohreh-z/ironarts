@@ -52,7 +52,7 @@ body{
 	height:500px;
 	padding-top:1px;
 	margin-right:auto;
-	background-image:url(images/head_reabon.png);
+	background-image:url(images/head_reabon_opacity.png);
 	background-repeat:no-repeat;
 	background-position:center top;
 }
@@ -79,7 +79,7 @@ body{
 }
 
 .nav ul >li{
-	border-bottom:1px #242424 solid;
+	border-bottom:2.6px #242424 solid;
 
 }
 
@@ -110,7 +110,7 @@ body{
 div.contact-us-form{
 	margin: 330px auto;
 	min-height:400px;
-	background:url(images/bg-o.png),rgba(22,22,22,0.9);
+	background:url(images/bg-o_opacity.png),rgba(22,22,22,0.85);
 	padding-bottom:20px;
 	border-radius:20px;
 
@@ -146,7 +146,7 @@ div.contact-us-form p{
 
 input[type=text]{
 
-	background-color: rgb(22,22,22);
+	background-color: rgba(22,22,22,0.7);
 	border: 1px solid #2B2B2B;
 	height: 28px;
 	line-height: 28px;
@@ -157,7 +157,7 @@ input[type=text]{
 }
 
 textarea{
-	background-color: rgb(22,22,22);
+	background-color: rgba(22,22,22,0.7);
 	border: 1px solid #2B2B2B;
 	height: 200px;
 	line-height: 28px;
@@ -223,7 +223,7 @@ div.send-alert-correct img{
 div.about-content{
 	margin: 330px auto;
 	max-width:630px;
-	background:url(images/cont_bg.gif),rgba(22,22,22,0.9);
+	background:url(images/cont_bg_opacity.png),rgba(22,22,22,0.43);
 	background-color:;
 	padding:25px;
 	border-radius:10px;
@@ -257,12 +257,12 @@ div.about-content div.content-news div{
 
 
 .bottom-background{
-	background-image:url(images/bottom_row.gif);
+	background-image:url(images/bottom_row_opacity.png);
 }
 
 .bottom-background .bottom-container{
 	outline-color:green;
-	background-image:url(images/title_row.gif);
+	background-image:url(images/title_row_opacity.png);
 	background-repeat:repeat-x;
 }
 
@@ -328,9 +328,9 @@ div.about-content div.content-news div{
 }
 
 .bottom-background .footer-container{
-	background-image:url(images/footer_bg.gif);
+	background-image:url(images/footer_bg_opacity.png);
 	min-height:40px;
-	background-repeat:repeat-x;
+	background-repeat:repeat;
 }
 
 .footer-container .footer-content{

@@ -41,10 +41,10 @@
 			
 ?>
 </head>
-
 <body>
 <div class="container">
 	<div class="nav left w6">
+
 		<div class="logo mla mra">
 			<h1>FOLIO</h1>
 		</div>
@@ -57,36 +57,35 @@
 		</ul>
 	</div>
 	<div class="container-content ml6 ">
-		<div class="contact-us-form w14">
-			<div class='send-alert-error'> <img src='images/not-correct-us.png' height='30px' width='30px' alt='not-correct'> Error in sending mail. </div>
-			<div class='send-alert-correct'> <img src='images/correct-us.png' height='30px' width='30px' alt='correct'> Thank's for sending mail. </div>
-			<h1>SEND MESSAGE</h1>
-			<form method="post" action="">
-				<table>
-					<tr>
-						<td><p>Full name <span>*</span></p></td>
-						<td><input type="text" class="name" name="name" ></td>
-					</tr>
-					<tr>
-						<td><p>Email <span>*</span></p></td>
-						<td><input type="text" class="user-email" name="user-email" ></td>
-					</tr>
-					<tr>
-						<td><p>Subject <span>*</span></p></td>
-						<td><input type="text" class="subject" name="subject"></td>
-					</tr>
-					<tr>
-						<td><p>Phone-number <span>*</span></p></td>
-						<td><input type="text" class="phone" name="phone"></td>
-					</tr>
-					<tr>
-						<td><p>Message <span>*</span></p></td>
-						<td><textarea class="textarea" name="Message" ></textarea></td>
-					</tr>
-				</table>
-				<input type="submit" class="ok" name="submit" value="SEND EMAIL">
-				<input type='reset' class='ok' name='reset'  onClick='hide_send_alert()' value='RESET'>
-			</form>
+		<div class="about-content">
+			<h1>MY BIO</h1>
+			<div class="person-pic left w6"><img src="images/page3_img1.jpg" width="100%"></div>
+			<div class="desc ml6 last">
+				<h1>consectetuer</h1>
+				<p>Praesent vestibulum molestie lacus. Aenean nonummy 1999 hendrerit mauris. Phasellus porta. Fusce sucipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus 2001 mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas 2011 tristique.</p>
+			</div>
+			<div class="clear"></div>
+			<div class="content-news">
+				<h1>NEWS</h1>
+				<p>Aenean nec eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse sollicitudin velit sed leo. Ut pharetra augue nec augue. Nam elit magna, hendrerit sit amet, tincidunt ac, viverra sed, nulla. <br />
+					<br />
+					<br />
+					<br />
+				</p>
+				<div class="news-1 left w5">
+					<h2>26 december 2011</h2>
+					<p>Ereet am leot tellu apibus eget elementum vel cursus eleife elitenean auctowisi et urnat volutpas ac tur. </p>
+				</div>
+				<div class="news-2 left w5">
+					<h2>23 december 2011</h2>
+					<p>Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur.</p>
+				</div>
+				<div class="news-3 ml10 last">
+					<h2>20 december 2011</h2>
+					<p>Aenean nec eros. Vestibulum ante ipsu primis in faucibus orci luctus et ultrices posuere cubilia Curae. </p>
+				</div>
+				<div class="clear"></div>
+			</div>
 		</div>
 	</div>
 	<div class="clear"></div>
