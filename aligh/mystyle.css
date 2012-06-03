@@ -1,3 +1,7 @@
+body{
+	overflow:hidden;
+}
+
 .backimg > div{
 	position:fixed;
 	background-position:center top;
@@ -30,6 +34,7 @@
 	min-height:600px;
 	width:980px;
 	padding-top:1px;
+	overflow:hidden;
 }
 		/*********************MENU***************************/
 .nav{
@@ -207,6 +212,7 @@ div.send-alert-correct img{
 
 .about-content{
 	margin-top:100px;
+	margin-left:700px;
 	max-width:630px;
 	background:url(images/cont_bg_opacity.png);
 	background-color:;
@@ -247,6 +253,7 @@ div.send-alert-correct img{
 		/*********************FOOTER***************************/
 
 .bottom-background{
+	display:none;
 	background-image:url(images/bottom_row.gif);
 	opacity:.9;
 }
