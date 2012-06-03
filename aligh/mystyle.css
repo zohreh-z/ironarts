@@ -1,7 +1,4 @@
-body{
-	overflow:hidden;
-}
-
+	/*********************backImage***************************/
 .backimg > div{
 	position:fixed;
 	background-position:center top;
@@ -70,7 +67,6 @@ body{
 
 .nav ul >li{
 	border-bottom:1px #242424 solid;
-
 }
 
 .nav ul >li a{
@@ -94,17 +90,19 @@ body{
 	background:black;
 	color:#FFF;
 }
-
-div.contact-us-form{
-	margin: 330px auto;
-	min-height:400px;
+	/*********************CONTACT***************************/
+	
+.contact-us-form{
+	margin-top:100px;
+	max-width:630px;
 	background:url(images/bottom_row.png);
 	opacity:.9;
-	padding-bottom:20px;
-	border-radius:20px;
+	padding:25px;
+	border-radius:10px;
+	margin-bottom:100px;
 }
 
-div.contact-us-form h1{
+.contact-us-form h1{
 	font-size: 18px;
 	color: white;
 	padding-top:20px;
@@ -205,11 +203,10 @@ div.send-alert-correct img{
 	margin-right:15px;
 }
 
-/*About content...........................About content*/
+	/*********************ABOUT***************************/
 
 .about-content{
 	margin-top:100px;
-	margin-left:700px;
 	max-width:630px;
 	background:url(images/bottom_row.png);
 	opacity:.9;
@@ -243,7 +240,6 @@ div.send-alert-correct img{
 		/*********************FOOTER***************************/
 
 .bottom-background{
-	display:none;
 	background-image:url(images/bottom_row.gif);
 	opacity:.9;
 }
