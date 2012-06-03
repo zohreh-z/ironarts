@@ -26,8 +26,8 @@
 		</div>
 			<div class="container-content ml8 cover">
 				<div class="contact-us-form w14">
-					<div class='send-alert-error'> <img src='images/not-correct-us.png' height='30px' width='30px' alt='not-correct'> Error in sending mail. </div>
-					<div class='send-alert-correct'> <img src='images/correct-us.png' height='30px' width='30px' alt='correct'> Thank's for sending mail. </div>
+					<div class='send-alert-error'>Error in sending mail. </div>
+					<div class='send-alert-correct'>Thank's for sending mail. </div>
 					<h1>SEND MESSAGE</h1>
 					<form method="post" action="">
 						<table>
@@ -139,10 +139,8 @@
 	</div>
 <!------------backImage------------>
 	<div class="backimg">
-		<div class="img1"></div>
-		<div class="img2"></div>
-		<div class="img3"></div>
-		<div class="img4"></div>
+		<div class="img2" style="opacity:.7"></div>
+		<div style="background-color:black;opacity:.7;"></div>
 	</div>
 </body>
 </html>

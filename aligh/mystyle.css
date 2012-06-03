@@ -96,7 +96,6 @@
 	margin-top:80px;
 	max-width:630px;
 	background:url(images/bottom_row.png);
-	opacity:.9;
 	padding:25px;
 	border-radius:10px;
 	margin-bottom:100px;
@@ -140,6 +139,11 @@ input[type=text]{
 	padding: 0 10px;
 	width: 350px;
 	color: #626262 ;
+	transition:border 500ms;
+	-webkit-transition:border 500ms;
+	-moz-transition:border 500ms;
+	-ms-transition:border 500ms;
+	-o-transition:border 500ms;
 }
 
 textarea{
@@ -151,10 +155,16 @@ textarea{
 	min-width: 350px;
 	color: #626262 ;
 	resize:none;
+	transition:border 500ms;
+	-webkit-transition:border 500ms;
+	-moz-transition:border 500ms;
+	-ms-transition:border 500ms;
+	-o-transition:border 500ms;
 }
 
 input[type=text].not-ok,textarea.not-ok{
-	border-color:red;
+	border-color:#D20000;
+	color:red;
 }
 
 input[type=submit],input[type=reset]{
@@ -195,6 +205,14 @@ div.send-alert-correct{
 	text-align:center;
 }
 
+div.send-alert-error{
+	color:#950000;
+}
+
+div.send-alert-correct{
+	color:#005300;
+}
+
 div.send-alert-error img,
 div.send-alert-correct img{
 	display: block;
@@ -208,7 +226,6 @@ div.send-alert-correct img{
 	margin-top:80px;
 	max-width:630px;
 	background:url(images/bottom_row.png);
-	opacity:.9;
 	padding:25px;
 	border-radius:10px;
 	margin-bottom:100px;
