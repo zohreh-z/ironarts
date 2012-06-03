@@ -95,17 +95,15 @@ body{
 	color:#FFF;
 }
 
-
-
-
 div.contact-us-form{
 	margin: 330px auto;
 	min-height:400px;
-	background:url(images/bg-o_opacity.png);
+	background:url(images/bottom_row.png);
 	opacity:.9;
 	padding-bottom:20px;
 	border-radius:20px;
 }
+
 div.contact-us-form h1{
 	font-size: 18px;
 	color: white;
@@ -120,10 +118,12 @@ div.contact-us-form h1{
 table tr td{
 	padding: 10px 5px;
 }
+
 table tr td span{
 	color: red;
 	font-size:12px;
 }
+
 table {
 	margin: 0 auto;
 }
@@ -135,7 +135,6 @@ div.contact-us-form p{
 }
 
 input[type=text]{
-
 	background-color: rgba(22,22,22,0.7);
 	border: 1px solid #2B2B2B;
 	height: 28px;
@@ -177,6 +176,7 @@ input[type=submit],input[type=reset]{
 	font-style: normal;
 	cursor:pointer;
 }
+
 input[type=submit]:hover,
 input[type=submit]:active,
 input[type=reset]:hover,
@@ -184,9 +184,9 @@ input[type=reset]:active{
 	background-color:#000000;
 	color:white;
 }
+
 div.send-alert-error,
-div.send-alert-correct
-{
+div.send-alert-correct{
 	display:none;
 	margin:0px auto;
 	padding:5px;
@@ -196,8 +196,8 @@ div.send-alert-correct
 	color:white;
 	margin-top:10px;
 	text-align:center;
-
 }
+
 div.send-alert-error img,
 div.send-alert-correct img{
 	display: block;
@@ -205,17 +205,14 @@ div.send-alert-correct img{
 	margin-right:15px;
 }
 
-
 /*About content...........................About content*/
-
-
 
 .about-content{
 	margin-top:100px;
 	margin-left:700px;
 	max-width:630px;
-	background:url(images/cont_bg_opacity.png);
-	background-color:;
+	background:url(images/bottom_row.png);
+	opacity:.9;
 	padding:25px;
 	border-radius:10px;
 	margin-bottom:100px;
@@ -243,13 +240,6 @@ div.send-alert-correct img{
 	text-align:center;
 	margin-bottom:20px;
 }
-
-
-
-
-
-
-
 		/*********************FOOTER***************************/
 
 .bottom-background{
