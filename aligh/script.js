@@ -16,14 +16,5 @@ $(function(){
 			})
 		})
 	}
-	slideshow();
-  
-	$('.about-li').click(function(){
-		$('.bottom-background').css('display','block');
-		$('body').css('overflow','auto');
-		//$('.contact-us-form').animate({marginLeft:700},500);
-		$('.about-content').animate({marginLeft:0},500);
-	})
-
-  
+	slideshow();  
 });
