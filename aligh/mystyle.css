@@ -1,13 +1,3 @@
-body{
-/*	background-image:url(images/back.png);
-	background-repeat:no-repeat;
-	background-position:center top; */
-}
-
-.backimg{
-		
-}
-
 .backimg > div{
 	position:fixed;
 	background-position:center top;
@@ -21,23 +11,19 @@ body{
 }
 
 .img1{
-	background-image:url(images/slider_pic1.jpg);
+	background-image:url(images/1.jpg);
 }
 
 .img2{
-	background-image:url(images/slider_pic11.jpg);
+	background-image:url(images/2.jpg);
 }
 
 .img3{
-	background-image:url(images/slider_pic12.jpg);
+	background-image:url(images/3.jpg);
 }
 
 .img4{
-	background-image: url(images/slider_pic2.jpg);
-}
-
-div{
-	/*outline: 1px red solid;*/
+	background-image: url(images/4.jpg);
 }
 
 .container{
@@ -54,6 +40,7 @@ div{
 	background-image:url(images/head_reabon.png);
 	background-repeat:no-repeat;
 	background-position:center top;
+	opacity:.9;
 }
 
 .nav .logo{
@@ -107,16 +94,15 @@ div{
 
 .bottom-background{
 	background-image:url(images/bottom_row.gif);
+	opacity:.9;
 }
 
 .bottom-background .bottom-container{
-	outline-color:green;
 	background-image:url(images/title_row.gif);
 	background-repeat:repeat-x;
 }
 
 .bottom-container .bottom-content{
-	outline-color:blue;
 	padding-top:1px;
 	width:980px;
 }
@@ -173,7 +159,6 @@ div{
 	width:auto;
 	margin-right:28px;
 	margin-left:750px;
-	outline-color:#3CF;
 }
 
 .bottom-background .footer-container{
