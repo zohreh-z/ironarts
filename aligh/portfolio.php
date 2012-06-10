@@ -18,18 +18,52 @@
 				<h1>iron arts</h1>
 			</div>
 			<ul class="mla mra">
-				<li class="home-li"><a href="index.php" style="background-color:black">HOME</a></li>
-				<li class="about-li"><a href="about.php">ABOUT</a></li>
-				<li class="port-li"><a href="portfolio.php">PORTFOLIO</a></li>
+				<li class="home-li"><a href="index.php">HOME</a></li>
+				<li class="about-li"><a href="about.php" style="background-color:black">ABOUT</a></li>
+				<li class="port-li"><a href="#">PORTFOLIO</a></li>
 				<li class="contanct-li"><a href="contact.php">CONTACTS</a></li>
 			</ul>		
 		</div>
-		<div class="container-content ml7 cover">
-			</div>
+		<div class="container-content ml7">
+<!------------portfolio------------>
+			<div class="portfolio-content">
+				<h1>MY PORTFOLIO</h1>
+				<div class="sample w11 last">
+					<img class="left" src="images/page3_img1.jpg"  width="251" height="211">
+					<div class="desc">
+						<h1>consectetuer</h1>
+						<p>
+							Praesent vestibulum molestie lacus. Aenean nonummy 1999 hendrerit mauris. Phasellus porta. Fusce sucipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus 2001 mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas 2011 tristique.
+						</p>
+						<a href="#">More...</a>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<div class="sample w11 last">
+					<img class="left" src="images/page3_img1.jpg"  width="251" height="211">
+					<div class="desc">
+						<h1>consectetuer</h1>
+						<p>
+							Praesent vestibulum molestie lacus. Aenean nonummy 1999 hendrerit mauris. Phasellus porta. Fusce sucipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus 2001 mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas 2011 tristique.
+						</p>
+						<a href="#">More...</a>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<div class="sample w11 last">
+					<img class="left" src="images/page3_img1.jpg"  width="251" height="211">
+					<div class="desc">
+						<h1>consectetuer</h1>
+						<p>
+							Praesent vestibulum molestie lacus. Aenean nonummy 1999 hendrerit mauris. Phasellus porta. Fusce sucipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus 2001 mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas 2011 tristique.
+						</p>
+						<a href="#">More...</a>
+						<div class="clear"></div>
+					</div>
+				</div>
+		</div>
 	</div>
-
 	</div>
-	<div class="clear"></div>
 <!------------footer------------>
 	<div class="bottom-background">
 		<div class="bottom-container">
@@ -79,10 +113,8 @@
 	</div>
 <!------------backImage------------>
 	<div class="backimg">
-		<div class="img1"></div>
-		<div class="img2"></div>
-		<div class="img3"></div>
-		<div class="img4"></div>
+		<div class="img1" style="opacity:.7"></div>
+		<div style="background-color:black;opacity:.7;"></div>
 	</div>
 </body>
 </html>
