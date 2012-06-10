@@ -26,12 +26,12 @@
 		</div>
 		<div class="container-content ml7 cover">
 <!------------about------------>
-			<div class="about-content right">
+			<div class="about-content">
 				<h1>MY BIO</h1>
-				<div class="person-pic left w6">
+				<div class="person-pic left w6 last">
 					<img src="images/page3_img1.jpg" width="100%">
 				</div>
-				<div class="desc ml6 last">
+				<div class="desc ml6">
 					<h1>consectetuer</h1>
 					<p>Praesent vestibulum molestie lacus. Aenean nonummy 1999 hendrerit mauris. Phasellus porta. Fusce sucipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus 2001 mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas 2011 tristique.</p>
 				</div>
