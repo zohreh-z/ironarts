@@ -289,13 +289,16 @@ div.send-alert-correct img{
 }
 
 .portfolio-content h1{
-	margin-bottom:20px;
+	margin-bottom:10px;
+	font-weight:bold;
 }
 
 .portfolio-content .desc{
 	outline:2px red solid;
 	margin-left:270px;
 	width:320px;
+	margin-top:30px;
+	line-height:25px;
 }
 		/*********************FOOTER***************************/
 
