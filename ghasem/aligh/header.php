@@ -10,6 +10,10 @@
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="slideshow.js"></script>
 <script type="text/javascript" src="script.js"></script>
+<link rel="stylesheet" href="lightbox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery-ui.js"></script>
+<script type="text/javascript" src="js/lightbox.js"></script>
 <!--<?php 
 
 	/*if( isset($_POST['name']) && isset($_POST['user-email']) && isset($_POST['subject']) && isset($_POST['phone']) && isset($_POST['Message'])){
