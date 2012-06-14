@@ -1,5 +1,5 @@
 $(function(){
-	function slideshow(){
+	(slideshow=function (){
 		$('.img4').fadeOut(4000,null,function(){
 			$('.img3').fadeOut(4000,null,function(){
 				$('.img2').fadeOut(4000,null,function(){
@@ -15,6 +15,5 @@ $(function(){
 				})  
 			})
 		})
-	}
-	slideshow();  
+	} )();
 });
