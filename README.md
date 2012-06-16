@@ -1,11 +1,37 @@
-**Website:** http://ironarts.ir.
+##IronArts wesite 
+The website for the **Iron-Art** company
 
-**about the project:** this project is for our final project in **web-programming basic**. and everyone in classes has to done a project. there is a competition between us and we all excited to win the **Award**.
 
-**website is about:** introducing a ferforje company and the owner. we choose it because the company owner has a lot of good quality images of his product, also he is really good in his job and he has to have a website for himself
+###Contributing
 
-**master:** [Ali Mihandoost](https://github.com/alimd)
+* Check our projec's website and report any bugs or ideas in [issues](https://github.com/1schools-projects/ironarts/issues)
 
-**adviser:** [Ali Abdolahi](ttps://github.com/aliab)
+* Check our project's source with
+```
+    git clone https://github.com/1schools-projects/ironarts.git
+```
 
-**our team:** [ali aghasizadeh](https://github.com/aligh) (manager), [pasha ostadi](https://github.com/pashao) (data gather), [ghassem sadeghi](https://github.com/ghasem-sadeghi) (designer)
+
+###Buliding Technologies
+* [HTML5](http://ali.md/wiki/html5)
+* [CSS3](http://ali.md/css3ref)
+* [1Styles](http://ali.md/1styles)
+* [JavaScript](http://ali.md/wiki/javascript)
+* [jQuery.js](http://ali.md/jquery.js)
+* [PHP](http://ali.md/php/)
+* [MySQL](http://ali.md/wiki/mysql)
+
+
+###The Team
+* [**Ali Mihandoost**](http://github.com/alimd) Teacher  & Technical Manager
+* [**Ali Aghasizadeh**](http://github.com/aligh) Project Manager / Developer
+* [**Ghasem Sadeghi**](https://github.com/ghasem-sadeghi) Designer / Developer
+* [**Pasha Ostadi**](https://github.com/pashao) Data Gather
+
+
+### All rights reserved ###
+Please note that IronArts.ir is a curated site and that we reserve the right to refuse any listing for any reason.
+
+The [IronArts.ir](http://ironarts.ir) code and website is released under a MIT License.
+
+Produced by 1schools student network (winter - summer 2012)
