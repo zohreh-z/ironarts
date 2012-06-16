@@ -312,11 +312,37 @@ div.send-alert-correct img{
 }
 
 .portfolio-content .desc{
-	outline:2px red solid;
 	margin-left:270px;
 	width:320px;
 	margin-top:30px;
 	line-height:25px;
+	margin-bottom:50px;
+}
+
+.portfolio-content .more{
+	margin-top:10px;
+	width:90px;
+	background-color:#000;
+	border:1px solid #333;
+	opacity:.5;
+	transition:all 300ms;
+	-webkit-transition:all 400ms;
+	-moz-transition:all 400ms;
+	-o-transition:all 400ms;
+	-ms-transition:all 400ms;
+}
+
+.portfolio-content .more a{
+	color:#FFF;
+	text-decoration:none;
+	padding:5px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:13px;
+	font-variant:small-caps;
+}
+
+.portfolio-content .more:hover{
+	opacity:1;
 }
 		/*********************FOOTER***************************/
 

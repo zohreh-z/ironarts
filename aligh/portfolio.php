@@ -38,7 +38,9 @@
 						<p>
 							Praesent vestibulum molestie lacus. Aenean nonummy 1999 hendrerit mauris. Phasellus porta. Fusce sucipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus 2001 mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas 2011 tristique.
 						</p>
-						<a href="images/doors/1.jpg" title="" rel="lightbox[group1]">Click for more samples...</a>
+						<div class="more">
+							<a href="images/doors/1.jpg" title="" rel="lightbox[group1]">More Samples</a>
+						</div>
 						<a href="images/doors/2.jpg" title="" rel="lightbox[group1]" ></a>
 						<a href="images/doors/3.jpg" title="" rel="lightbox[group1]" ></a>
 					</div>
@@ -51,7 +53,9 @@
 						<p>
 							Praesent vestibulum molestie lacus. Aenean nonummy 1999 hendrerit mauris. Phasellus porta. Fusce sucipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus 2001 mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas 2011 tristique.
 						</p>
-						<a href="images/chairs/1.jpg" title="" rel="lightbox[group1]">Click for more samples...</a>
+						<div class="more">
+							<a href="images/doors/1.jpg" title="" rel="lightbox[group1]">More Samples</a>
+						</div>
 						<a href="images/chairs/2.jpg" title="" rel="lightbox[group1]" ></a>
 						<a href="images/chairs/3.jpg" title="" rel="lightbox[group1]" ></a>
 					</div>
@@ -64,7 +68,9 @@
 						<p>
 							Praesent vestibulum molestie lacus. Aenean nonummy 1999 hendrerit mauris. Phasellus porta. Fusce sucipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus 2001 mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas 2011 tristique.
 						</p>
-						<a href="images/tables/1.jpg" title="" rel="lightbox[group1]">Click for more samples...</a>
+						<div class="more">
+							<a href="images/doors/1.jpg" title="" rel="lightbox[group1]">More Samples</a>
+						</div>
 						<a href="images/tables/2.jpg" title="" rel="lightbox[group1]" ></a>
 						<a href="images/tables/3.jpg" title="" rel="lightbox[group1]" ></a>
 					</div>
