@@ -8,8 +8,10 @@
 <link rel="stylesheet" type="text/css" href="mystyle.css" />
 
 <link href='http://fonts.googleapis.com/css?family=Julee|Fredericka+the+Great|Oleo+Script|Berkshire+Swash' rel='stylesheet' type='text/css'>
-<script type="text/javascript" src="jquery.js"></script>
-<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="scripts/jquery.js"></script>
+<script type="text/javascript" src="scripts/lightbox.js"></script>
+<script type="text/javascript" src="scripts/slideshow.js"></script>
+<script type="text/javascript" src="scripts/script.js"></script>
 </head>
 <body>
 	<div class="container">
@@ -20,7 +22,7 @@
 			<ul class="mla mra">
 				<li class="home-li"><a href="index.php">HOME</a></li>
 				<li class="about-li"><a href="about.php">ABOUT</a></li>
-				<li class="port-li"><a href="#">PORTFOLIO</a></li>
+				<li class="port-li"><a href="portfolio.php">PORTFOLIO</a></li>
 				<li class="contanct-li"><a href="contact.php" style="background-color:black">CONTACTS</a></li>
 			</ul>		
 		</div>
