@@ -23,7 +23,8 @@ The website for the **Iron-Art** company
 
 
 ###The Team
-* [**Ali Aghasizadeh**](http://github.com/aligh) Project & Technical Manager / Developer
+* [**Ali Mihandoost**](http://github.com/alimd) Teacher  & Technical Manager
+* [**Ali Aghasizadeh**](http://github.com/aligh) Project Manager / Developer
 * [**Ghasem Sadeghi**](https://github.com/ghasem-sadeghi) Designer / Developer
 * [**Pasha Ostadi**](https://github.com/pashao) Data Gather
 
