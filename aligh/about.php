@@ -5,6 +5,7 @@
 <title>:..IRON ARTS..:</title>
 <link rel="stylesheet" type="text/css" href="reset.css" />
 <link rel="stylesheet" type="text/css" href="1styles.css" />
+<link rel="stylesheet" href="lightbox.css" type="text/css" media="screen" />
 <link rel="stylesheet" type="text/css" href="mystyle.css" />
 
 <link href='http://fonts.googleapis.com/css?family=Julee|Fredericka+the+Great|Oleo+Script|Berkshire+Swash' rel='stylesheet' type='text/css'>

@@ -5,6 +5,7 @@
 <title>:..IRON ARTS..:</title>
 <link rel="stylesheet" type="text/css" href="reset.css" />
 <link rel="stylesheet" type="text/css" href="1styles.css" />
+<link rel="stylesheet" href="lightbox.css" type="text/css" media="screen" />
 <link rel="stylesheet" type="text/css" href="mystyle.css" />
 
 <link href='http://fonts.googleapis.com/css?family=Julee|Fredericka+the+Great|Oleo+Script|Berkshire+Swash' rel='stylesheet' type='text/css'>
@@ -30,14 +31,16 @@
 <!------------portfolio------------>
 			<div class="portfolio-content">
 				<h1>MY PORTFOLIO</h1>
-				<div class="doors w11 last">
+				<div class="sample w11 last">
 					<img class="left" src="images/page3_img1.jpg"  width="251" height="211">
 					<div class="desc">
 						<h1>consectetuer</h1>
 						<p>
 							Praesent vestibulum molestie lacus. Aenean nonummy 1999 hendrerit mauris. Phasellus porta. Fusce sucipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus 2001 mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas 2011 tristique.
 						</p>
-						<a href="#">More...</a>
+						<a href="images/doors/1.jpg" title="" rel="lightbox[group1]">Click for more samples...</a>
+						<a href="images/doors/2.jpg" title="" rel="lightbox[group1]" ></a>
+						<a href="images/doors/3.jpg" title="" rel="lightbox[group1]" ></a>
 					</div>
 				</div>
 				<div class="clear"></div>
@@ -48,7 +51,9 @@
 						<p>
 							Praesent vestibulum molestie lacus. Aenean nonummy 1999 hendrerit mauris. Phasellus porta. Fusce sucipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus 2001 mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas 2011 tristique.
 						</p>
-						<a href="#">More...</a>
+						<a href="images/chairs/1.jpg" title="" rel="lightbox[group1]">Click for more samples...</a>
+						<a href="images/chairs/2.jpg" title="" rel="lightbox[group1]" ></a>
+						<a href="images/chairs/3.jpg" title="" rel="lightbox[group1]" ></a>
 					</div>
 				</div>
 				<div class="clear"></div>
@@ -59,7 +64,9 @@
 						<p>
 							Praesent vestibulum molestie lacus. Aenean nonummy 1999 hendrerit mauris. Phasellus porta. Fusce sucipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus 2001 mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas 2011 tristique.
 						</p>
-						<a href="#">More...</a>		
+						<a href="images/tables/1.jpg" title="" rel="lightbox[group1]">Click for more samples...</a>
+						<a href="images/tables/2.jpg" title="" rel="lightbox[group1]" ></a>
+						<a href="images/tables/3.jpg" title="" rel="lightbox[group1]" ></a>
 					</div>
 				</div>
 				<div class="clear"></div>
