@@ -8,9 +8,10 @@
 <link rel="stylesheet" type="text/css" href="mystyle.css" />
 
 <link href='http://fonts.googleapis.com/css?family=Julee|Fredericka+the+Great|Oleo+Script|Berkshire+Swash' rel='stylesheet' type='text/css'>
-<script type="text/javascript" src="jquery.js"></script>
-<script type="text/javascript" src="slideshow.js"></script>
-<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="scripts/jquery.js"></script>
+<script type="text/javascript" src="scripts/lightbox.js"></script>
+<script type="text/javascript" src="scripts/slideshow.js"></script>
+<script type="text/javascript" src="scripts/script.js"></script>
 </head>
 <body>
 	<div class="container">
