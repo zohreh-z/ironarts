@@ -321,7 +321,7 @@ div.send-alert-correct img{
 
 .portfolio-content .more{
 	margin-top:10px;
-	width:90px;
+	width:92px;
 	background-color:#000;
 	border:1px solid #333;
 	opacity:.5;
@@ -339,6 +339,7 @@ div.send-alert-correct img{
 	font-family:Georgia, "Times New Roman", Times, serif;
 	font-size:13px;
 	font-variant:small-caps;
+	white-space:nowrap;
 }
 
 .portfolio-content .more:hover{
