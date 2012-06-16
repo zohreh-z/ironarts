@@ -34,4 +34,4 @@ Please note that IronArts.ir is a curated site and that we reserve the right to 
 
 The [IronArts.ir](http://ironarts.ir) code and website is released under a MIT License.
 
-Produced by 1schools student network (winter - summer 2012)
+Produced by 1schools students network (winter - summer 2012)
