@@ -49,11 +49,15 @@ window.onload=function(){
 
 $(function(){
 		$('.hide-nav').click(function(){
-		$('.nav').animate({'top':'-400px'},700);
-		$('.hide-nav').removeClass('hide-nav').addClass('show-nav');
+		$('.nav').stop().animate({'top':'-400px'},700,null,function(){
+			$('.hide-nav').click(function(){
+					if($('.nav').css('top')=='-400px'){
+						$('.nav').stop().animate({'top':'0px'},700)
+					}
+			});
+			});
+		
 	});
-		$('.show-nav').click(function(){
-		$('.nav').animate({'top':'0'},700);
-		$('.show-nav').removeClass('show-nav').addClass('hide-nav');
-	});
+		
+	
 })
