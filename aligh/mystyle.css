@@ -37,12 +37,13 @@
 .nav{
 	width:228px;
 	height:480px;
-	padding-top:1px;
 	margin-right:auto;
 	background-image:url(images/head_reabon.png);
 	background-repeat:no-repeat;
 	background-position:center top;
 	opacity:.9;
+	position:absolute;
+	top:0;
 }
 
 .nav .logo{
@@ -90,6 +91,23 @@
 	background:black;
 	color:#FFF;
 }
+
+.hide-nav{
+	background-image:url(images/menu_hide_arrow_top.png);
+	height:48px;
+	width:48px;
+	margin-top:60px;
+	cursor:pointer;
+}
+
+.show-nav{
+	background-image:url(images/menu_hide_arrow_bottom.png);
+	height:48px;
+	width:48px;
+	margin-top:60px;
+	cursor:pointer;
+}
+
 	/*********************CONTACT***************************/
 	
 .contact-us-form{

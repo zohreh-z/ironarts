@@ -25,7 +25,7 @@
 				<li class="about-li"><a href="about.php">ABOUT</a></li>
 				<li class="port-li"><a href="portfolio.php" style="background-color:black">PORTFOLIO</a></li>
 				<li class="contanct-li"><a href="contact.php">CONTACTS</a></li>
-			</ul>		
+			</ul>
 		</div>
 		<div class="container-content ml7">
 <!------------portfolio------------>

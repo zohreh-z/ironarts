@@ -43,3 +43,17 @@ window.onload=function(){
 		
 	}	
 }
+
+
+
+
+$(function(){
+		$('.hide-nav').click(function(){
+		$('.nav').animate({'top':'-400px'},700);
+		$('.hide-nav').removeClass('hide-nav').addClass('show-nav');
+	});
+		$('.show-nav').click(function(){
+		$('.nav').animate({'top':'0'},700);
+		$('.show-nav').removeClass('show-nav').addClass('hide-nav');
+	});
+})
